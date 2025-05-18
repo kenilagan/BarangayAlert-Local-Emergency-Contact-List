@@ -1,4 +1,4 @@
-"import time
+import time
 from datetime import datetime
 
 # Admin Credentials
@@ -29,7 +29,7 @@ def loading_animation(message):
         print(".", end="", flush=True)
     print("\n")
 
-# Admin Login 
+# admin Login 
 def login_admin():
     print("\n--- Administrator Login ---")
     username = input("Username: ").strip()
@@ -119,7 +119,7 @@ def search_contact():
     else:
         print("No contacts found for that service.")
 
-# Admin Functions
+# admin Functions
 def add_contact():
     print("\n--- Add New Contact ---")
     name = input("Name: ")
@@ -263,7 +263,6 @@ def main():
         else:
             print("Invalid selection. Please try again.")
 
-# Run the program
 if __name__ == "__main__":
-    main()"
+    main()
     
